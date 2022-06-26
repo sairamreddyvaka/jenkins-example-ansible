@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'any'}
+  agent {label 'maven:3.8.4-openjdk-11-slim''}
 
   stages {
     stage('Hello') {
